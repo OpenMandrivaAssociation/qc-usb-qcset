@@ -1,16 +1,17 @@
 %define sname qc-usb
 %define name %{sname}-qcset
 %define version 0.6.6
+%define release %mkrel 2
 
 Name: %{name}
 Version: %version
-Release: %mkrel 1
+Release: %release
 Summary: Tool for the old Quickcam Express webcams
 License: GPL
 Source: http://downloads.sourceforge.net/qce-ga/%{sname}-%{version}.tar.gz
 URL: http://qce-ga.sourceforge.net/
 Group: System/Kernel and hardware
-Suggests: dkms-qc-usb
+Suggests: kmod(quickcam)
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
 %description
