@@ -1,7 +1,7 @@
 %define sname qc-usb
 %define name %{sname}-qcset
 %define version 0.6.6
-%define release %mkrel 2
+%define release %mkrel 3
 
 Name: %{name}
 Version: %version
