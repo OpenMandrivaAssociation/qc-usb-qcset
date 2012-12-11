@@ -49,3 +49,26 @@ rm -rf %{buildroot}
 %defattr(0644,root,root,0755)
 %doc APPLICATIONS CREDITS FAQ README.qce TODO qcweb-info.txt debug.sh freeshm.sh quickcam.sh
 %attr(0755,root,root) %{_bindir}/qcset
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.6.6-5mdv2010.0
++ Revision: 433754
+- rebuild
+
+* Mon Sep 07 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.6.6-4mdv2010.0
++ Revision: 432736
+- rebuild
+
+* Fri Aug 08 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.6.6-3mdv2009.0
++ Revision: 269049
+- rebuild early 2009.0 package (before pixel changes)
+
+  + Guillaume Bedot <littletux@mandriva.org>
+    - Fix suggests
+
+* Fri Apr 25 2008 Guillaume Bedot <littletux@mandriva.org> 0.6.6-1mdv2009.0
++ Revision: 197426
+- import qc-usb-qcset
+
+
