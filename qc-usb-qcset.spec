@@ -4,7 +4,7 @@
 
 Name:     %{sname}-qcset
 Version:  0.6.6
-Release:  6
+Release:  7
 Summary:  Tool for the old Quickcam Express webcams
 License:  GPL
 Source:   http://downloads.sourceforge.net/qce-ga/%{sname}-%{version}.tar.gz
