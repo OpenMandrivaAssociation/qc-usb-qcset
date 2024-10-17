@@ -8,7 +8,7 @@ Release:  7
 Summary:  Tool for the old Quickcam Express webcams
 License:  GPL
 Source:   http://downloads.sourceforge.net/qce-ga/%{sname}-%{version}.tar.gz
-URL:      http://qce-ga.sourceforge.net/
+URL:      https://qce-ga.sourceforge.net/
 Group:    System/Kernel and hardware
 Suggests: kmod(quickcam)
 
