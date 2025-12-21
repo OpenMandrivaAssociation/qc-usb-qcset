@@ -12,6 +12,7 @@ URL:      https://qce-ga.sourceforge.net/
 Group:    System/Kernel and hardware
 Suggests: kmod(quickcam)
 
+BuildRequires:	make
 %description
 This package contains qcset, a tool that allows to configure the "quickcam" 
 module on the fly.
